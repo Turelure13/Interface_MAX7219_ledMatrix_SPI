@@ -1,0 +1,269 @@
+ÀÄmain_2
+   ÃÄMAIN  0/386  Ram=0
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄinit  0/72  Ram=0
+   ³  ³  ÃÄlcd_init  0/88  Ram=2
+   ³  ³  ³  ÃÄlcd_send_byte  0/66  Ram=3
+   ³  ³  ³  ³  ÃÄlcd_send_nibble  0/66  Ram=1
+   ³  ³  ³  ³  ÀÄlcd_send_nibble  0/66  Ram=1
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@const733  0/20  Ram=0
+   ³  ³  ³  ÃÄlcd_send_byte  0/66  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄlcd_putc  0/116  Ram=1
+   ³  ³  ³     ÃÄlcd_send_byte  0/66  Ram=3
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³     ÃÄlcd_gotoxy  0/76  Ram=4
+   ³  ³  ³     ³  ÃÄ@goto63754  0/34  Ram=0
+   ³  ³  ³     ³  ÀÄlcd_send_byte  0/66  Ram=3
+   ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³     ÃÄlcd_send_byte  0/66  Ram=3
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÃÄlcd_send_byte  0/66  Ram=3
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÀÄlcd_send_byte  0/66  Ram=3
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄMaxMatrix  0/52  Ram=7
+   ³  ³  ÃÄinitMax  0/170  Ram=0
+   ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ÃÄsetCommand  0/180  Ram=3
+   ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ÃÄshiftOut  0/254  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ³  ÀÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ÃÄshiftOut  0/254  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³  ÀÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ÃÄsetCommand  0/180  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsetCommand  0/180  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsetCommand  0/180  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄclear  0/58  Ram=3
+   ³  ³  ³  ³  ÀÄsetColumnAll  0/210  Ram=5
+   ³  ³  ³  ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³     ÃÄshiftOut  0/254  Ram=5
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄshiftOut  0/254  Ram=5
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ³     ÀÄ@WRITEBITA  0/66  Ram=6
+   ³  ³  ³  ÀÄsetIntensity  0/16  Ram=1
+   ³  ³  ³     ÀÄsetCommand  0/180  Ram=3
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÀÄsetIntensity  0/16  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄHelp  0/202  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÀÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÀÄlect_cmds  0/230  Ram=4
+   ³     ÃÄbgetc  0/42  Ram=2
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄbgetc  0/42  Ram=2
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄbgetc  0/42  Ram=2
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄSet_Intensity  0/180  Ram=2
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄmap  0/124  Ram=14
+   ³     ³  ³  ÃÄ@MULS1616  0/86  Ram=6
+   ³     ³  ³  ÀÄ@DIVS1616  0/122  Ram=6
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/42  Ram=3
+   ³     ³  ÃÄ@PRINTF_U_115200_31766_31767  0/126  Ram=2
+   ³     ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³     ³  ³  ÀÄ@DIV88  0/44  Ram=3
+   ³     ³  ÃÄ@PRINTF_U_115200_31766_31767  0/126  Ram=2
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÀÄsetIntensity  0/16  Ram=1
+   ³     ³     ÀÄ*
+   ³     ÃÄbgetc  0/42  Ram=2
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄSet_Speed  0/174  Ram=1
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄmap  0/124  Ram=14
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/42  Ram=3
+   ³     ³  ÃÄ@PRINTF_U_115200_31766_31767  0/126  Ram=2
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄ@PRINTF_U_115200_31766_31767  0/126  Ram=2
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÀÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄEnter_text  0/388  Ram=61
+   ³     ³  ÃÄclear  0/58  Ram=3
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³     ³  ÃÄbgetc  0/42  Ram=2
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄprintStringWithShift  0/60  Ram=4
+   ³     ³  ³  ÀÄprintCharWithShift  0/174  Ram=9
+   ³     ³  ³     ÃÄ@MUL1616  0/36  Ram=5
+   ³     ³  ³     ÃÄ@const759  0/680  Ram=0
+   ³     ³  ³     ÃÄwriteSprite  0/202  Ram=11
+   ³     ³  ³     ³  ÃÄsetColumn  0/294  Ram=7
+   ³     ³  ³     ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³  ³  ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³  ³  ³  ÀÄ*
+   ³     ³  ³     ³  ³  ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³  ³  ³  ÀÄ*
+   ³     ³  ³     ³  ³  ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³  ³  ³  ÀÄ*
+   ³     ³  ³     ³  ³  ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³  ³  ³  ÀÄ*
+   ³     ³  ³     ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³  ³  ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³  ³  ÀÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³  ÀÄsetDot  0/396  Ram=11
+   ³     ³  ³     ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³     ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³     ³  ÀÄ*
+   ³     ³  ³     ³     ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³     ³  ÀÄ*
+   ³     ³  ³     ³     ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³     ³  ÀÄ*
+   ³     ³  ³     ³     ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³     ³     ³  ÀÄ*
+   ³     ³  ³     ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³     ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ³     ÀÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³     ÃÄsetColumn  0/294  Ram=7
+   ³     ³  ³     ³  ÀÄ*
+   ³     ³  ³     ÃÄ@delay_ms1  0/42  Ram=1
+   ³     ³  ³     ÀÄshiftLeft  0/134  Ram=7
+   ³     ³  ³        ÀÄreload  0/242  Ram=4
+   ³     ³  ³           ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³           ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³           ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³           ³  ÀÄ*
+   ³     ³  ³           ÃÄshiftOut  0/254  Ram=5
+   ³     ³  ³           ³  ÀÄ*
+   ³     ³  ³           ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³           ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³           ÃÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ³           ÀÄ@WRITEBITA  0/66  Ram=6
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÀÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ÃÄselfTest  0/132  Ram=0
+   ³     ³  ÃÄclear  0/58  Ram=3
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄprintStringWithShift  0/60  Ram=4
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄprintStringWithShift  0/60  Ram=4
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄprintStringWithShift  0/60  Ram=4
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄprintStringWithShift  0/60  Ram=4
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÀÄprintStringWithShift  0/60  Ram=4
+   ³     ³     ÀÄ*
+   ³     ÃÄDefaultTexte  0/68  Ram=0
+   ³     ³  ÃÄclear  0/58  Ram=3
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PSTRINGC_115200_31766_31767  0/34  Ram=2
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³     ³  ÀÄprintStringWithShift  0/60  Ram=4
+   ³     ³     ÀÄ*
+   ³     ÃÄHelp  0/202  Ram=0
+   ³     ³  ÀÄ*
+   ³     ÀÄbgetc  0/42  Ram=2
+   ÀÄserial_isr  0/54  Ram=3

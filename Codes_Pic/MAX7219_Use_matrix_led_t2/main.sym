@@ -1,0 +1,185 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-013 spidata
+014     maxDevices
+015-054 status
+055     lcd_line
+056-05D VR
+05E     delaytime
+05F     x
+060     y
+061     xdir
+062     ydir
+063     x1
+064     y1
+065     x1dir
+066     y1dir
+067-068 @sprintf_string
+069     lcd_init.i
+069     demo_1.x
+069-06A demo_3.deltime
+069     setIntensity.intensity
+069     cursor.c
+069     @PSTRINGC_750.@SCRATCH1
+06A     grx_scroll.x
+06A     grx_WriteChar.myChar
+06A     grx_display.addr
+06A     grx_cls.x
+06A     lcd_init.@SCRATCH1
+06A     demo_1.@SCRATCH1
+06A     @PSTRINGC_750.@SCRATCH2
+06B     grx_WriteChar.Column
+06B     setRow.addr
+06B     lcd_putc.c
+06B     grx_display.row
+06B     setColumn.addr
+06B     grx_scroll.clip
+06B     grx_cls.@SCRATCH1
+06B     demo_3.@SCRATCH1
+06C     lcd_gotoxy.x
+06C     @delay_ms1.P1
+06C     setRow.row
+06C     grx_scroll.dir
+06C     grx_WriteChar.Start_Byte
+06C     setColumn.col
+06C     grx_cls.@SCRATCH2
+06C     grx_display.@SCRATCH1
+06D     grx_scroll.scroll
+06D     setColumn.value
+06D     send7219.address
+06D     lcd_gotoxy.y
+06D     setRow.value
+06D     grx_WriteChar.@SCRATCH1
+06E     grx_scroll.edge
+06E     lcd_gotoxy.address
+06E     setRow.offset
+06E     setColumn.val
+06E     send7219.data
+06E     grx_WriteChar.@SCRATCH2
+06F-070 send7219.SerialData
+06F     setColumn.row
+06F     setRow.@SCRATCH1
+06F     lcd_gotoxy.@SCRATCH1
+06F     grx_WriteChar.@SCRATCH3
+06F     grx_scroll.@SCRATCH1
+070     lcd_send_byte.address
+070     setLed.addr
+070     setRow.@SCRATCH2
+070     grx_scroll.@SCRATCH2
+071     setLed.row
+071     lcd_send_byte.n
+071     grx_scroll.@SCRATCH3
+072     setLed.Column
+072     lcd_send_byte.@SCRATCH1
+073     setLed.state
+073     lcd_send_nibble.n
+074     setLed.offset
+075     setLed.val
+076     setLed.@SCRATCH1
+077     setLed.@SCRATCH2
+078     spi_Transfer.addr
+078     setLed.@SCRATCH3
+079     spi_Transfer.opcode
+07A     spi_Transfer.data
+07B     spi_Transfer.offset
+07C     spi_Transfer.maxbytes
+07D     spi_Transfer.i
+07E     spi_Transfer.@SCRATCH1
+07F     spi_Transfer.@SCRATCH2
+080     spi_Transfer.@SCRATCH3
+081     spi_Transfer.@SCRATCH4
+082-083 @SPI_XFER_1_16.P1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  Alphabet.call
+000014  Alphabet.data
+0000B0  LCD_INIT_STRING.call
+0000C0  LCD_INIT_STRING.data
+0000C4  @const815.call
+0000D6  @const820.call
+0000E8  lcd_send_nibble
+000126  lcd_send_byte
+000160  @delay_ms1
+000188  lcd_init
+0001C8  lcd_gotoxy
+000202  @goto11062
+000224  lcd_putc
+00027C  @PSTRINGC_750
+00029C  @SPI_XFER_1_16
+0002BA  send7219
+0002D2  InitMax7219
+00030A  setIntensity
+000318  grx_cls
+000336  grx_display
+000360  init
+00038C  grx_WriteChar
+0003C2  grx_scroll
+00040E  demo_1
+000450  spi_Transfer
+0004EC  setRow
+00053E  setLed
+000606  setColumn
+000652  demo_3
+000C02  @cinit1
+000C02  MAIN
+000C46  @cinit2
+
+Project Directory:
+    D:\Fichiers_Divers\DataPic\MAX7219_Use_matrix_led_t2\
+
+Project Files:
+    main.c                                                  [21-nov.-18 10:11  CRC=09ADB236]
+    C:\Program Files (x86)\PICC\devices\18F4550.h           [26-juin-15 09:09  CRC=281B1877]
+    max7219.c                                               [20-nov.-18 13:22  CRC=7D837DFC]
+    ..\include\LCD420_S3.c                                  [24-juil.-14 11:01  CRC=03A88C45]
+
+Source signature=B69D6133
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=7A1A
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Compile Mode:       CCS5
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F4550 TRUE
+
+Output Files:
+    Errors:      main.err
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

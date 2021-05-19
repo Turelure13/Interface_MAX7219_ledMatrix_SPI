@@ -1,0 +1,62 @@
+#T
+Print SelfTest...
+
+#H
+
+******************************************
+* HELP For Programme  Max7219 Led Matrix *
+******************************************
+* #I = Set Intensity (0 - 9)             *
+* #S = Set Speed (0 - 9)                 *
+* #M = Enter Text (Max 45 caracteres)    *
+* #T = Run SelfTest                      *
+* #D = Run Default Text (SEMI)           *
+* #H = This Help Page                    *
+******************************************
+
+
+#D
+Print Default Text (SEMI)...
+
+#S8
+
+Speed -> 12 (8)
+
+#M
+Enter text and press 'return' in the end (max. 45 caracteres) 
+
+je suis un test
+
+#T
+Print SelfTest...
+
+#M
+Enter text and press 'return' in the end (max. 45 caracteres) 
+
+#M#M#M
+
+******************************************
+* HELP For Programme  Max7219 Led Matrix *
+******************************************
+* #I = Set Intensity (0 - 9)             *
+* #S = Set Speed (0 - 9)                 *
+* #M = Enter Text (Max 45 caracteres)    *
+* #T = Run SelfTest                      *
+* #D = Run Default Text (SEMI)           *
+* #H = This Help Page                    *
+******************************************
+
+
+#I5
+
+Intensity -> 17 (5)
+
+#S3
+
+Speed -> 67 (3)
+
+#M
+Enter text and press 'return' in the end (max. 45 caracteres) 
+
+Je suis un test
+

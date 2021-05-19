@@ -1,0 +1,286 @@
+ÀÄmain
+   ÀÄMAIN  0/90  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄinit  0/44  Ram=0
+      ³  ÃÄlcd_init  0/64  Ram=2
+      ³  ³  ÃÄlcd_send_byte  0/58  Ram=3
+      ³  ³  ³  ÃÄlcd_send_nibble  0/62  Ram=1
+      ³  ³  ³  ÀÄlcd_send_nibble  0/62  Ram=1
+      ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ³  ÃÄ@const730  0/20  Ram=0
+      ³  ³  ÃÄlcd_send_byte  0/58  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄ@PSTRINGC_750  0/32  Ram=2
+      ³  ³  ÀÄlcd_putc  0/88  Ram=1
+      ³  ³     ÃÄlcd_send_byte  0/58  Ram=3
+      ³  ³     ³  ÀÄ*
+      ³  ³     ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ³     ÃÄlcd_gotoxy  0/58  Ram=4
+      ³  ³     ³  ÃÄ@goto11062  0/34  Ram=0
+      ³  ³     ³  ÀÄlcd_send_byte  0/58  Ram=3
+      ³  ³     ³     ÀÄ*
+      ³  ³     ÃÄlcd_send_byte  0/58  Ram=3
+      ³  ³     ³  ÀÄ*
+      ³  ³     ÃÄlcd_send_byte  0/58  Ram=3
+      ³  ³     ³  ÀÄ*
+      ³  ³     ÀÄlcd_send_byte  0/58  Ram=3
+      ³  ³        ÀÄ*
+      ³  ÃÄ@PSTRINGC_750  0/32  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄInitMax7219  0/56  Ram=0
+      ³  ³  ÃÄsend7219  0/24  Ram=4
+      ³  ³  ³  ÀÄ@SPI_XFER_1_16  0/30  Ram=4
+      ³  ³  ÃÄsend7219  0/24  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄsend7219  0/24  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄsend7219  0/24  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄsend7219  0/24  Ram=4
+      ³  ³     ÀÄ*
+      ³  ÃÄsetIntensity  0/14  Ram=1
+      ³  ³  ÀÄsend7219  0/24  Ram=4
+      ³  ³     ÀÄ*
+      ³  ÃÄgrx_cls  0/30  Ram=3
+      ³  ÀÄgrx_display  0/42  Ram=3
+      ³     ÀÄsend7219  0/24  Ram=4
+      ³        ÀÄ*
+      ÃÄdemo_1  0/66  Ram=2
+      ³  ÃÄgrx_WriteChar  0/54  Ram=6
+      ³  ³  ÀÄ@const654  0/172  Ram=0
+      ³  ÃÄgrx_display  0/42  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄgrx_scroll  0/76  Ram=8
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄgrx_display  0/42  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄgrx_cls  0/30  Ram=3
+      ³  ÀÄgrx_display  0/42  Ram=3
+      ³     ÀÄ*
+      ÃÄgrx_cls  0/30  Ram=3
+      ÃÄgrx_display  0/42  Ram=3
+      ³  ÀÄ*
+      ÀÄdemo_3  0/1456  Ram=3
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄspi_Transfer  0/156  Ram=10
+         ³     ÀÄ@SPI_XFER_1_16  0/30  Ram=4
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄsetRow  0/82  Ram=6
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄsetLed  0/200  Ram=9
+         ³     ÀÄspi_Transfer  0/156  Ram=10
+         ³        ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄsetColumn  0/76  Ram=5
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÀÄ@delay_ms1  0/40  Ram=1

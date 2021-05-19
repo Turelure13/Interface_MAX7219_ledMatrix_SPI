@@ -1,0 +1,7 @@
+
+State Machine - |de0nano_adc|state
+Name state.busy~reg0 state.execute~reg0 state.ready~reg0 state.initialize~reg0 
+state.initialize~reg0 0 0 0 0 
+state.ready~reg0 0 0 1 1 
+state.execute~reg0 0 1 0 1 
+state.busy~reg0 1 0 0 1 

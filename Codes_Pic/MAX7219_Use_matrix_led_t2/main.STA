@@ -1,0 +1,73 @@
+
+ROM used:   3164/31936 (10%)
+            3164/31936 (10%) including unused fragments
+
+            1.7 Average locations per line
+            7.6 Average locations per statement
+
+RAM used:   105/2036 (5%) at main() level
+            132/2036 (6%) worst case
+
+Stack used: 3 worst case (3 in main + 0 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  416   259  62  main.c
+  839     0   0  C:\Program Files (x86)\PICC\devices\18F4550.h
+  329    97  23  max7219.c
+  236    62  15  ..\include\LCD420_S3.c
+----- -----
+ 1820   418 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   1    1             @delay_ms1
+0     30   0    4             @SPI_XFER_1_16
+0    172   3    0             @const654
+0     24   0    4    156  2.4  send7219
+0    156   2   10    605  7.0  spi_Transfer
+0     56   1    0    197  1.8  InitMax7219
+0     14   0    1     35  1.4  setIntensity
+0    200   3    9    620  9.4  setLed
+0     82   1    6    287  6.2  setRow
+0     76   1    5    358  8.0  setColumn
+0     20   0    0             @const730
+0     62   1    1    326  2.8  lcd_send_nibble
+0     58   1    3    211  3.8  lcd_send_byte
+0     64   1    2    297  5.1  lcd_init
+0     58   1    4    336  6.0  lcd_gotoxy
+0     34   1    0             @goto11062
+0     88   1    1    375  5.1  lcd_putc
+0     30   0    3     99  3.3  grx_cls
+0     42   1    3    138  3.9  grx_display
+0     54   1    6    193  5.7  grx_WriteChar
+0     76   1    8    239  4.8  grx_scroll
+0     66   1    2    260  3.7  demo_1
+0   1456  23    3   7166  2.5  demo_3
+0     44   1    0    125  1.2  init
+0     18   0    0             @const815
+0     32   1    2             @PSTRINGC_750
+0     18   0    0             @const820
+0     90   1    0     75  1.5  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               20
+    Statements              418
+    Comments                453
+    Volume (V)              17807
+    Difficulty (D)          86.2
+    Effort to implement (E) 1535364
+    Time to implement (T)   23 hours, 42 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   27
+    Maintainability (MI)    130
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07CBE  3160  28772  
+
+
+

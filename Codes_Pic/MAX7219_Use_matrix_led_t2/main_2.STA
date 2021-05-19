@@ -1,0 +1,111 @@
+
+ROM used:   7124/31936 (22%)
+            7124/31936 (22%) including unused fragments
+
+            4.1 Average locations per line
+            18.8 Average locations per statement
+
+RAM used:   413/2036 (20%) at main() level
+            514/2036 (25%) worst case
+
+Stack used: 5 worst case (4 in main + 1 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  379   198  52  main_2.c
+  839     0   0  C:\Program Files (x86)\PICC\devices\18F4550.h
+  263   119  31  MaxMatrix.c
+  236    62  16  ..\include\LCD420_S3.c
+----- -----
+ 1717   379 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     42   0    1             @delay_ms1
+0      8   0    0             @PUTCHARI_BIU_1
+0     52   0    7    240  4.9  MaxMatrix
+0    254   2    5    433  8.0  shiftOut
+0     66   0    6             @WRITEBITA
+0    180   1    3    307  4.0  setCommand
+0    210   1    5    379  5.5  setColumnAll
+0     58   0    3    187  4.0  clear
+0     16   0    1     35  1.4  setIntensity
+0    170   1    0    250  1.8  initMax
+0    294   2    7    659  7.8  setColumn
+0    396   3   11    860 11.0  setDot
+0    202   1   11   1005  9.4  writeSprite
+0    242   2    4    455  5.5  reload
+0    134   1    7    383  7.0  shiftLeft
+0     20   0    0             @const733
+0     66   0    1    326  2.8  lcd_send_nibble
+0     66   0    3    211  3.8  lcd_send_byte
+0     88   1    2    297  5.1  lcd_init
+0     76   1    4    336  6.0  lcd_gotoxy
+0     34   0    0             @goto63754
+0    116   1    1    375  5.1  lcd_putc
+0    680   5    0             @const759
+0     54   0    3    160  4.0  serial_isr
+0     42   0    2    149  4.7  bgetc
+0     72   1    0    197  1.7  init
+0     18   0    0             @const779
+0     32   0    2             @PSTRINGC_753
+0     18   0    0             @const784
+0    174   1    9    415  6.3  printCharWithShift
+0     36   0    5             @MUL1616
+0     60   0    4    108  3.3  printStringWithShift
+0    132   1    0    303  1.8  selfTest
+0     18   0    0             @const800
+0     34   0    2             @PSTRINGC_115200_31766_31767
+0     68   0    0    158  1.7  DefaultTexte
+0     30   0    0             @const803
+0    124   1   14    188  6.6  map
+0     86   1    6             @MULS1616
+0    122   1    6             @DIVS1616
+0    180   1    2    482  3.8  Set_Intensity
+0     26   0    0             @const819
+0     22   0    0             @const820
+0     42   0    3             @PSTRINGCN_115200_31766_31767
+0     44   0    3             @DIV88
+0    126   1    2             @PRINTF_U_115200_31766_31767
+0    174   1    1    436  3.7  Set_Speed
+0     22   0    0             @const831
+0     18   0    0             @const832
+0    388   3   61    931  8.9  Enter_text
+0     64   0    0             @const837
+0    202   1    0    887  1.4  Help
+0     44   0    0             @const840
+0     44   0    0             @const841
+0     44   0    0             @const842
+0     44   0    0             @const843
+0     44   0    0             @const844
+0     44   0    0             @const845
+0     44   0    0             @const846
+0     44   0    0             @const847
+0     44   0    0             @const848
+0     44   0    0             @const849
+0    230   2    4   1062  7.3  lect_cmds
+0    386   3    0     50  1.3  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               31
+    Statements              379
+    Comments                490
+    Volume (V)              22662
+    Difficulty (D)          144.2
+    Effort to implement (E) 3266944
+    Time to implement (T)   50 hours, 25 minutes
+    Est Delivered Bugs (B)  7
+    Cyclomatic Complexity   49
+    Maintainability (MI)    90
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07CBE  6954  24808  
+
+
+
