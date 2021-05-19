@@ -13,3 +13,6 @@ On this GitHub you will find :
 - Ledmatrix blinking --> Inspired by https://github.com/LeHack/DE0Nano_VHDL/tree/master/src/ADC_LEDMatrix, it helped us make the ledmatrix work and allowed us to produce the video linked bellow 
 - Documents --> These are the pdfs we used to get a better understanding on how to make the ledmatrix work
 - Codes_Pic --> This folder was baseline that was given to us in order to understand how the ledmatrix can be implemented 
+- Readme file completed --> This pdf file will explain in details step by step how we developped the project
+
+The result of the project can be seen on Youtube with this link : https://www.youtube.com/watch?v=tS3sNX7nVXg
