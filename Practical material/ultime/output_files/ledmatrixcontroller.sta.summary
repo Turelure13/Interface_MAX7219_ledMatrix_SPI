@@ -1,0 +1,181 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -5.133
+TNS   : -110.188
+
+Type  : Slow 1100mV 85C Model Setup 'fsm:fsm1|cs.s4'
+Slack : -2.073
+TNS   : -30.591
+
+Type  : Slow 1100mV 85C Model Setup 'clockbuffer'
+Slack : -1.405
+TNS   : -32.004
+
+Type  : Slow 1100mV 85C Model Hold 'clockbuffer'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'fsm:fsm1|cs.s4'
+Slack : 0.540
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'clockbuffer'
+Slack : -1.442
+TNS   : -15.832
+
+Type  : Slow 1100mV 85C Model Removal 'clockbuffer'
+Slack : 0.579
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -22.641
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clockbuffer'
+Slack : -0.394
+TNS   : -14.511
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'fsm:fsm1|cs.s4'
+Slack : -0.394
+TNS   : -9.953
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -5.285
+TNS   : -109.532
+
+Type  : Slow 1100mV 0C Model Setup 'fsm:fsm1|cs.s4'
+Slack : -1.988
+TNS   : -29.744
+
+Type  : Slow 1100mV 0C Model Setup 'clockbuffer'
+Slack : -1.391
+TNS   : -31.331
+
+Type  : Slow 1100mV 0C Model Hold 'clockbuffer'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'fsm:fsm1|cs.s4'
+Slack : 0.519
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'clockbuffer'
+Slack : -1.422
+TNS   : -15.610
+
+Type  : Slow 1100mV 0C Model Removal 'clockbuffer'
+Slack : 0.525
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -25.427
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clockbuffer'
+Slack : -0.394
+TNS   : -14.863
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'fsm:fsm1|cs.s4'
+Slack : -0.394
+TNS   : -9.935
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.706
+TNS   : -46.626
+
+Type  : Fast 1100mV 85C Model Setup 'fsm:fsm1|cs.s4'
+Slack : -0.910
+TNS   : -12.612
+
+Type  : Fast 1100mV 85C Model Setup 'clockbuffer'
+Slack : -0.735
+TNS   : -13.914
+
+Type  : Fast 1100mV 85C Model Hold 'clockbuffer'
+Slack : -0.087
+TNS   : -0.303
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'fsm:fsm1|cs.s4'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'clockbuffer'
+Slack : -0.992
+TNS   : -10.898
+
+Type  : Fast 1100mV 85C Model Removal 'clockbuffer'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.277
+TNS   : -3.027
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clockbuffer'
+Slack : -0.009
+TNS   : -0.030
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'fsm:fsm1|cs.s4'
+Slack : 0.045
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.523
+TNS   : -40.828
+
+Type  : Fast 1100mV 0C Model Setup 'fsm:fsm1|cs.s4'
+Slack : -0.774
+TNS   : -10.729
+
+Type  : Fast 1100mV 0C Model Setup 'clockbuffer'
+Slack : -0.601
+TNS   : -11.358
+
+Type  : Fast 1100mV 0C Model Hold 'clockbuffer'
+Slack : -0.125
+TNS   : -0.492
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'fsm:fsm1|cs.s4'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'clockbuffer'
+Slack : -0.879
+TNS   : -9.655
+
+Type  : Fast 1100mV 0C Model Removal 'clockbuffer'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.279
+TNS   : -3.283
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clockbuffer'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'fsm:fsm1|cs.s4'
+Slack : 0.069
+TNS   : 0.000
+
+------------------------------------------------------------

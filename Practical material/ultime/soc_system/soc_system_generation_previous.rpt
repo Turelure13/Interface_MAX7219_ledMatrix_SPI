@@ -1,0 +1,40 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Semi\Desktop\ultime\soc_system.qsys --block-symbol-file --output-directory=C:\Users\Semi\Desktop\ultime\soc_system --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading ultime/soc_system.qsys
+Progress: Reading input file
+Progress: Adding REG1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG1
+Progress: Adding REG_out_CS [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_out_CS
+Progress: Adding REG_out_DIN [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_out_DIN
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding fpga_only_master [altera_jtag_avalon_master 18.1]
+Progress: Parameterizing module fpga_only_master
+Progress: Adding hps_0 [altera_hps 18.1]
+Progress: Parameterizing module hps_0
+Progress: Adding hps_only_master [altera_jtag_avalon_master 18.1]
+Progress: Parameterizing module hps_only_master
+Progress: Adding intr_capturer_0 [intr_capturer 100.99.98.97]
+Progress: Parameterizing module intr_capturer_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: soc_system.REG1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: soc_system.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: soc_system.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: soc_system.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: soc_system.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: soc_system.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: soc_system.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: soc_system.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Stopping: Create block symbol file (.bsf)

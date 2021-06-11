@@ -1,0 +1,8 @@
+
+State Machine - |ledmatrixcontroller|fsm:fsm1|cs
+Name cs.s4 cs.s3 cs.s2 cs.s1 cs.s0 
+cs.s0 0 0 0 0 0 
+cs.s1 0 0 0 1 1 
+cs.s2 0 0 1 0 1 
+cs.s3 0 1 0 0 1 
+cs.s4 1 0 0 0 1 
