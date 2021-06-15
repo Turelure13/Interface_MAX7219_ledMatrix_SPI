@@ -113,7 +113,7 @@ architecture behavioral of mytb is
 			process(clk) begin
 				if( rising_edge(clk) ) then
 					
-					if( counter >= 5000 ) then
+					if( counter >= 5000 ) then --to get the one hertz the counter limit should be set to 400000 (5000 is more convenient for the testbench simulation)
 						counter <=  std_logic_vector(to_unsigned(0, 24));
 						onehzclk <= not onehzclk;
 --					if( counter >= '1100001101010000000' ) then
