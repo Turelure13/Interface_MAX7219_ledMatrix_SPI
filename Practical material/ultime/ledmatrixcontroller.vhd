@@ -119,7 +119,7 @@ BEGIN
 		if( rising_edge(clk) ) then
 			
 			counter <= counter + 1;
-			if( counter = 5000 ) then
+			if( counter = 125 ) then				--to change from 50 MHz to 400kHz
 				
 				clockbuffer <= not clockbuffer;
 				counter <= "00000000000000000000000000000000";
